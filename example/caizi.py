@@ -19,7 +19,7 @@ def caishu():
 			a=input("")
 		elif a==num:
 			print("恭喜你猜中了!是否继续?输入0停止,其他键继续.")
-			b=input("")
+			a=input("")
 			if a==0:
 				print("退出游戏!")
 				#break
