@@ -1,0 +1,13 @@
+{% for key, value in info_dict.items %}
+
+    {{ key }}: {{ value }}
+
+{% endfor %} 
+
+站点：{{ info_dict.site }} 内容：{{ info_dict.content }}
+
+{% for item in List %}
+	{{item}}{% if not forloop.last %},{% endif %}
+{% endfor %}
+
+<a href="{{ request.path }}?{{ request.GET.urlencode }}&delete=1">当前网址加参数 delete</a>
