@@ -1,7 +1,7 @@
 import urllib.request
 import urllib.parse
 
-url="http://www.iqianyue.com/mypost/"
+url="http://jandan.net/ooxx"
 postdata=urllib.parse.urlencode({
 	"name":"ceo@iqianyue.com",
 	"pass":"aA123456"
